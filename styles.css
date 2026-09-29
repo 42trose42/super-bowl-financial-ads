@@ -3,13 +3,13 @@
    ========================================================================== */
 
 :root {
-  --bg: #0b0c0e;
-  --surface: #15171b;
-  --surface-2: #1d2026;
-  --line: #2a2d34;
-  --text: #ece8e0;
-  --muted: #a39e94;
-  --accent: #e4b54a;          /* the one accent color */
+  --bg: #16181e;
+  --surface: #20232b;
+  --surface-2: #2b2f39;
+  --line: #3b404b;
+  --text: #faf7f0;
+  --muted: #c4bfb5;
+  --accent: #ffc83d;          /* the one accent color */
   --accent-ink: #15120b;      /* text on accent */
 
   --serif: "Fraunces", Georgia, "Times New Roman", serif;
@@ -74,12 +74,12 @@ main:focus { outline: none; }
 .hero::before {           /* stadium-light glow */
   content: ""; position: absolute; inset: 0; z-index: -2;
   background:
-    radial-gradient(70% 55% at 50% 115%, rgba(228, 181, 74, .20), transparent 70%),
-    radial-gradient(40% 40% at 50% 0%, rgba(255, 255, 255, .04), transparent 70%);
+    radial-gradient(70% 55% at 50% 115%, rgba(255, 200, 61, .34), transparent 70%),
+    radial-gradient(40% 40% at 50% 0%, rgba(255, 255, 255, .08), transparent 70%);
 }
 .hero::after {            /* faint yard lines */
   content: ""; position: absolute; inset: 0; z-index: -1;
-  background: repeating-linear-gradient(90deg, transparent 0 calc(10% - 1px), rgba(255, 255, 255, .045) calc(10% - 1px) 10%);
+  background: repeating-linear-gradient(90deg, transparent 0 calc(10% - 1px), rgba(255, 255, 255, .07) calc(10% - 1px) 10%);
   -webkit-mask-image: linear-gradient(to top, #000 0%, transparent 75%);
           mask-image: linear-gradient(to top, #000 0%, transparent 75%);
 }
@@ -175,7 +175,7 @@ main:focus { outline: none; }
 .btn__icon { display: inline-flex; }
 .btn svg { width: 16px; height: 16px; }
 .btn--primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
-.btn--primary:hover { background: #f0c865; border-color: #f0c865; }
+.btn--primary:hover { background: #ffd66e; border-color: #ffd66e; }
 .btn--ghost { background: transparent; }
 .btn--sound[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
 .btn--disabled { background: transparent; color: var(--muted); cursor: default; border-style: dashed; }
@@ -233,7 +233,7 @@ main:focus { outline: none; }
 .adlabel--overlay {
   position: absolute; top: 14px; z-index: 2; max-width: 42%;
   padding: .6rem .8rem; border-radius: 4px;
-  background: rgba(11, 12, 14, .78);
+  background: rgba(22, 24, 30, .8);
   -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
   pointer-events: none; transition: opacity .25s;
 }
