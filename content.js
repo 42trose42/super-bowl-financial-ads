@@ -73,7 +73,7 @@ window.CONTENT = {
       brand: "Coinbase",
       title: "QR Code",
       year: "2022",
-      video: "videos/pair1-right.mp4",
+      video: "https://www.youtube.com/watch?v=F90XcAzyzsQ",
       link: "https://adage.com/video/coinbase-qr-wagmi",
       poster: "",
       alt: "A color-changing QR code bounces around a black screen for sixty seconds."
@@ -82,7 +82,7 @@ window.CONTENT = {
       brand: "Ameriquest",
       title: "Surprise Dinner",
       year: "2005",
-      video: "videos/pair2-left.mp4",
+      video: "https://www.youtube.com/watch?v=0rur4loqAoY",
       link: "https://adage.com/videos/ameriquest-surprise-dinner/634",
       poster: "",
       alt: "A man cooking dinner is caught holding a knife and a sauce-covered cat when his wife walks in."
@@ -91,7 +91,7 @@ window.CONTENT = {
       brand: "FTX",
       title: "Don't Miss Out",
       year: "2022",
-      video: "videos/pair2-right.mp4",
+      video: "https://www.youtube.com/watch?v=hWMnbJJpeZc",
       link: "https://adage.com/video/ftx-an-idiot-through-history-sb-60s-embargoed/",
       poster: "",
       alt: "Larry David dismisses inventions through history, then dismisses FTX."
@@ -100,7 +100,7 @@ window.CONTENT = {
       brand: "MetLife",
       title: "Peanuts",
       year: "1986",
-      video: "videos/pair3-left.mp4",
+      video: "https://www.youtube.com/watch?v=m55keP1abeY",
       link: "https://clickamericana.com/topics/money-work/snoopy-peanuts-met-life-ads-1987",
       poster: "",
       alt: "Snoopy and the Peanuts gang promote MetLife insurance."
@@ -109,7 +109,7 @@ window.CONTENT = {
       brand: "Novig",
       title: "Just Sports",
       year: "2026",
-      video: "videos/pair3-right.mp4",
+      video: "https://www.youtube.com/watch?v=bp0T184hVY0",
       link: "https://novig.com/justsports",
       poster: "",
       alt: "Sydney Sweeney poses with sports equipment in an ad for the prediction market Novig."
