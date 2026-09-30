@@ -42,14 +42,14 @@ window.CONTENT = {
   hero: {
     kicker: "A Genre Experiment",
     title: "Thirty Seconds of Silence",
-    subtitle: "Twenty-five years of Super Bowl ads, and what they've been selling us about money.",
+    subtitle: "Years of Super Bowl ads, and what they've been selling us about money",
     byline: "Tyler Rose, WRT 120, Duke University, Fall 2026"
   },
 
   /* ---------- Opening scene ---------- */
   opening: {
     kicker: "Super Bowl Sunday",
-    heading: "The Break",
+    heading: "",
     paragraphs: [
       "Today is Super Bowl Sunday. My friends and coworkers are gathered in my living room half-watching the TV while reaching for the French onion dip. For about four hours, over 120 million people agree on one thing to watch. It’s the most-watched broadcast in America every year. Then the game stops, and something strange happens. Nobody gets up and the room goes quiet. Everyone turns toward the TV, because this is the one night a year Americans watch commercials on purpose.",
       "Companies know how big the Super Bowl is. They spend months and millions for thirty seconds. What they choose to say with it tells you what they think we want, and over the last twenty-five years what they’ve been selling us about money has changed."
@@ -125,14 +125,14 @@ window.CONTENT = {
     {
       id: "pair-1",
       kicker: "Pair One: 2000 and 2022",
-      heading: "Get In Before Everyone Else",
+      heading: "",
       before: [
         "January 2000. The Rams are playing the Titans, and the stock market is bullish. A website that sells pet food has bought a Super Bowl ad, and so have sixteen other dot-com companies. E*Trade uses its airtime to put a chimp on screen, dancing in a garage while two guys clap off-beat. The ad drags out the awkwardness on purpose. The room laughs, confused, until the words appear: “Well, we just wasted two million bucks. What are you doing with your money?”",
         "The ad is mocking itself and every other dot-com in the lineup. Everyone is supposed to laugh, but almost nobody takes the hint. Six weeks later, the NASDAQ peaks. By the next Super Bowl, seven of the seventeen tech companies that advertised that night are out of business."
       ],
       left: "pair1Left",
       right: "pair1Right",
-      caption: "E*Trade's chimp and Coinbase's QR code, both aired at the top of a bubble.",
+      caption: "",
       after: [
         "February 2022. The Rams are back in the Super Bowl, and so are the companies selling fast money, but this time it’s crypto. Coinbase, FTX, Crypto.com, and eToro have all bought time.",
         "Mid-game, the screen goes black. A QR code drifts across it, changing colors and bouncing off the edges like the old DVD screensaver.  This goes on for a full minute. There’s no voice, no actor, and no explanation. Scan the QR code and you get $15 in free Bitcoin. The site gets twenty million hits in one minute, and it crashes. Like the E*Trade chimp, the ad never explains what the company does. It only asks that you buy in. The next day, crypto prices drop and Coinbase shares fall with them. By November, FTX has collapsed. By the next Super Bowl, only one crypto company buys an ad."
@@ -141,14 +141,14 @@ window.CONTENT = {
     {
       id: "pair-2",
       kicker: "Pair Two: 2005 and 2022",
-      heading: "Don't Be the Skeptic",
+      heading: "",
       before: [
         "February 2005. The Patriots are playing the Eagles, and home prices have been climbing for years. Ameriquest, a mortgage lender, is buying Super Bowl ad space for the first time. In one, a man is cooking a surprise dinner for his wife. The cat knocks over the pot of red sauce, and when his wife walks in, he’s holding the kitchen knife in one hand and a sauce-covered cat in the other. She screams. The words appear: “Don’t judge too quickly. We won’t.”",
         "It’s funny and both of Ameriquest’s ads that night make USA Today’s top ten. But “we won’t judge” is the business model. Ameriquest is a subprime lender, making home loans to people with weak credit who couldn’t get them elsewhere. After 2006, no subprime lender buys another Super Bowl ad. By 2007, Ameriquest stops making loans, and the housing market is collapsing."
       ],
       left: "pair2Left",
       right: "pair2Right",
-      caption: "Ameriquest and FTX both made the person asking questions the joke.",
+      caption: "",
       after: [
         "February 2022. The same Crypto Bowl. FTX puts Larry David on screen, playing a skeptic through history. He waves off the wheel, the fork, and the lightbulb as bad ideas. Then someone pitches him FTX as a safe and easy way to get into crypto, and he says no to that too. The words appear: “Don’t be like Larry.”",
         "Seventeen years apart, the message is the same: the person asking the questions is the joke. Nine months later, FTX collapses, and its founder is later convicted of fraud amongst other things. Customers who trusted the safe and easy pitch lose their money, and Larry David is named in a class-action lawsuit over the ad. He later told the AP that he asked friends whether to do the ad, they said it was fine, “so, like an idiot, I did it.”"
@@ -157,14 +157,14 @@ window.CONTENT = {
     {
       id: "pair-3",
       kicker: "Pair Three: 1986 and 2026",
-      heading: "We'll Be There vs. Prove It",
+      heading: "",
       before: [
         "Not every money ad airs during the Super Bowl, so this pair looks outside it. In 1985, MetLife starts putting Snoopy and the Peanuts gang in its commercials. Insurance companies had a reputation of being cold and distant, and a cartoon beagle was meant to change that. In one 1986 spot, Snoopy promises that in over a hundred years, MetLife has never failed to meet its obligations to its customers.",
         "That’s the whole pitch: no prize, no deadline, and no dare. The ad is selling the idea that MetLife will still be there in fifty years when you retire and need it."
       ],
       left: "pair3Left",
       right: "pair3Right",
-      caption: "Outside the Super Bowl: MetLife's promise and Novig's dare.",
+      caption: "",
       after: [
         "September 2026. A prediction market called Novig launches an ad campaign starring Sydney Sweeney, wearing nothing but sports gear. It lets people bet on sports outcomes, and since the NFL bans prediction market ads, it can’t advertise during the game. So it goes to social media. The tagline: “Think you know sports? Prove it.”",
         "Female Olympians and athletes push back hard, and Novig’s CEO says the goal was to grab the nation’s attention, and that Sweeney, who owns a stake in the company, drove much of the ad’s visuals and messaging. MetLife used a familiar face to promise it would always be there. Novig uses one to dare you to bet that you’re right, today."
@@ -198,7 +198,7 @@ window.CONTENT = {
   /* ---------- Closing scene ---------- */
   closing: {
     kicker: "The Pattern",
-    heading: "What the Ads Tell Us",
+    heading: "",
     paragraphs: [
       "Put the pairs side by side and a pattern appears. The ads selling fast money crowd the biggest stage right before the crash. Dot-coms flooded the 2000 game, and the NASDAQ peaked six weeks later. Ameriquest arrived in 2005, and the housing market collapsed two years after. Crypto took over in 2022, and FTX was gone by November. Each time, the next Super Bowl is quieter, and the ads selling security come back. After the 2008 housing crash, insurance companies like MetLife and Prudential bought time to talk about widows and retirement.",
       "So this isn’t a straight line from responsible to reckless. It’s a cycle. But the cycle has changed in one way that matters. In 2000, the dot-coms needed you to buy their stock. In 2005, Ameriquest needed you to take out a loan. Now, companies like FanDuel and Novig don’t need a bubble to make money from you. They just need you to keep betting.",
@@ -230,7 +230,10 @@ window.CONTENT = {
 
   /* ---------- Footer ---------- */
   footer: {
-    text: "Tyler Rose, WRT 120: Writing Crime, Dr. Jessica Corey, Duke University, Fall 2026"
+    text: "Tyler Rose, WRT 120: Writing Crime, Dr. Jessica Corey, Duke University, Fall 2026",
+    // Link shown in the footer. Leave url "" to hide it.
+    reflectionLabel: "Reflection",
+    reflectionUrl: "https://docs.google.com/document/d/1hWQi-1Tc92ccuUs_fbDbZbWQOLeS0mGcbIhmZKelp6I/edit?tab=t.0"
   },
 
   /* ---------- Interface labels ----------
