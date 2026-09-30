@@ -216,12 +216,17 @@ window.CONTENT = {
   worksCited: {
     heading: "Works Cited",
     entries: [
-      "[Author Last Name, First Name.] “[Title of Article].” <i>[Title of Website or Journal]</i>, [Publisher], [Day Month Year], [URL].",
-      "[Author Last Name, First Name.] <i>[Title of Book]</i>. [Publisher], [Year].",
-      "[Brand Name.] “[Title of Ad].” <i>[Platform, e.g. YouTube]</i>, uploaded by [Uploader], [Day Month Year], [URL].",
-      "[Author Last Name, First Name, and First Name Last Name.] “[Title of a Longer Source That Wraps onto a Second Line to Show the Hanging Indent].” <i>[Container Title]</i>, vol. [#], no. [#], [Year], pp. [#–#]. [Database], [DOI or URL].",
-      "[Organization Name.] “[Title of Report or Page].” <i>[Website Name]</i>, [Day Month Year], [URL]. Accessed [Day Month Year].",
-      "[Television Network.] <i>[Super Bowl Broadcast Title]</i>. [Network], [Day Month Year]."
+      "\"Betting on the Finals: Prevalence of Gambling Marketing in the NBA and NHL Finals 2025.\" University of Bristol, 26 Aug. 2025, <a href=\"https://research-information.bris.ac.uk/en/publications/betting-on-the-finals-prevalence-of-gambling-marketing-in-the-nba/\">research-information.bris.ac.uk/en/publications/betting-on-the-finals-prevalence-of-gambling-marketing-in-the-nba/</a>. Accessed 29 Sept. 2026.",
+      "\"Larry David Addresses FTX Super Bowl Commercial: 'Like an Idiot, I Did It.'\" CBS News, via AOL, Jan. 2024, <a href=\"https://www.aol.com/larry-david-addresses-ftx-super-231621074.html\">www.aol.com/larry-david-addresses-ftx-super-231621074.html</a>. Accessed 29 Sept. 2026.",
+      "\"MetLife Grounds Snoopy. Curse You, Red Baron!\" The Boston Globe, 20 Oct. 2016, <a href=\"https://www.bostonglobe.com/business/2016/10/20/metlife-grounds-snoopy-curse-you-red-baron/uxepXLaz0VUpHXx9pMPLlI/story.html\">www.bostonglobe.com/business/2016/10/20/metlife-grounds-snoopy-curse-you-red-baron/uxepXLaz0VUpHXx9pMPLlI/story.html</a>. Accessed 29 Sept. 2026.",
+      "\"NFL Gets $450 Million in Genius Stock.\" Sportico, Apr. 2021, <a href=\"https://www.sportico.com/business/finance/2021/nfl-gets-450-million-in-genius-stock-1234626951/\">www.sportico.com/business/finance/2021/nfl-gets-450-million-in-genius-stock-1234626951/</a>. Accessed 29 Sept. 2026.",
+      "\"No. 2 of the Subprime 25: Ameriquest Mortgage Co.\" Center for Public Integrity, 6 May 2009, <a href=\"https://publicintegrity.org/inequality-poverty-opportunity/no-2-of-the-subprime-25-ameriquest-mortgage-co-acc-capital-holdings-corp/\">publicintegrity.org/inequality-poverty-opportunity/no-2-of-the-subprime-25-ameriquest-mortgage-co-acc-capital-holdings-corp/</a>. Accessed 29 Sept. 2026.",
+      "\"Novig CEO Says Sydney Sweeney Drove 'Visuals and Messaging' of Nude Ad.\" Front Office Sports, 15 Sept. 2026, <a href=\"https://frontofficesports.com/?p=249524\">frontofficesports.com/?p=249524</a>. Accessed 29 Sept. 2026.",
+      "\"Sports Betting Ads Decline in Regulated Market, AGA Warns.\" SiGMA World, 2025, <a href=\"https://sigma.world/news/sports-betting-ads-regulated-market-aga-warns/\">sigma.world/news/sports-betting-ads-regulated-market-aga-warns/</a>. Accessed 29 Sept. 2026.",
+      "\"Sydney Sweeney's Explicit Novig Ad Sparks Backlash from Female Athletes.\" Khaleej Times, 15 Sept. 2026, <a href=\"https://www.khaleejtimes.com/entertainment/sydney-sweeney-novig-ad-backlash-female-athletes\">www.khaleejtimes.com/entertainment/sydney-sweeney-novig-ad-backlash-female-athletes</a>. Accessed 29 Sept. 2026.",
+      "\"2000: Dot-Com Bubble.\" Goldman Sachs, <a href=\"https://www.goldmansachs.com/our-firm/history/moments/2000-dot-com-bubble\">www.goldmansachs.com/our-firm/history/moments/2000-dot-com-bubble</a>. Accessed 29 Sept. 2026.",
+      "Valinsky, Jordan. \"Coinbase's Strange QR-Code Super Bowl Ad Briefly Crashes App.\" CNN Business, via KRDO, 13 Feb. 2022, <a href=\"https://krdo.com/?p=725050\">krdo.com/?p=725050</a>. Accessed 29 Sept. 2026."
+
     ]
   },
 
