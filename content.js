@@ -144,14 +144,14 @@ window.CONTENT = {
       heading: "[Pair Two Heading]",
       before: [
         "February 2005. The Patriots are playing the Eagles, and home prices have been climbing for years. Ameriquest, a mortgage lender, is buying Super Bowl ad space for the first time. In one, a man is cooking a surprise dinner for his wife. The cat knocks over the pot of red sauce, and when his wife walks in, he’s holding the kitchen knife in one hand and a sauce-covered cat in the other. She screams. The words appear: “Don’t judge too quickly. We won’t.”",
-        "It’s funny and both of Ameriquest’s ads that night make USA Today’s top ten. But “we won’t judge” is the business model. Ameriquest is a subprime lender, making home loans to people with weak credit who couldn’t get them elsewhere. After 2006, no subprime lender buys another Super Bowl ad. By 2007, Ameriquest stops taking new loan applications, and the housing market is collapsing."
+        "It’s funny and both of Ameriquest’s ads that night make USA Today’s top ten. But “we won’t judge” is the business model. Ameriquest is a subprime lender, making home loans to people with weak credit who couldn’t get them elsewhere. After 2006, no subprime lender buys another Super Bowl ad. By 2007, Ameriquest stops making loans, and the housing market is collapsing."
       ],
       left: "pair2Left",
       right: "pair2Right",
       caption: "[Caption for comparison two]",
       after: [
         "February 2022. The same Crypto Bowl. FTX puts Larry David on screen, playing a skeptic through history. He waves off the wheel, the fork, and the lightbulb as bad ideas. Then someone pitches him FTX as a safe and easy way to get into crypto, and he says no to that too. The words appear: “Don’t be like Larry.”",
-        "Seventeen years apart, the message is the same: the person asking the questions is the joke. Nine months later, FTX collapses, and its founder is later convicted of fraud amongst other things. Customers who trusted the safe and easy pitch lose their money, and Larry David is named in a class-action lawsuit over the ad. He later told the AP that he asked friends whether to do the ad, and they said crypto was on the rise, “and like an idiot, I did.”"
+        "Seventeen years apart, the message is the same: the person asking the questions is the joke. Nine months later, FTX collapses, and its founder is later convicted of fraud amongst other things. Customers who trusted the safe and easy pitch lose their money, and Larry David is named in a class-action lawsuit over the ad. He later told the AP that he asked friends whether to do the ad, they said it was fine, “so, like an idiot, I did it.”"
       ]
     },
     {
@@ -166,8 +166,8 @@ window.CONTENT = {
       right: "pair3Right",
       caption: "[Caption for comparison three]",
       after: [
-        "September 2026. A prediction market called Novig launches an ad campaign starring Sydney Sweeney, wearing nothing but sports gear. It lets people bet on sports outcomes, and since the NFL bans prediction market ads, it can’t advertise during the game. So it goes to billboards in Times Square and other platforms. The tagline: “Think you know sports? Prove it.”",
-        "Female Olympians and athletes push back hard, and Novig’s CEO confirms the campaign was meant to stir controversy. Sweeney also owns a stake in the company. MetLife used a familiar face to promise it would always be there. Novig uses one to dare you to bet that you’re right, today."
+        "September 2026. A prediction market called Novig launches an ad campaign starring Sydney Sweeney, wearing nothing but sports gear. It lets people bet on sports outcomes, and since the NFL bans prediction market ads, it can’t advertise during the game. So it goes to social media. The tagline: “Think you know sports? Prove it.”",
+        "Female Olympians and athletes push back hard, and Novig’s CEO says the goal was to grab the nation’s attention, and that Sweeney, who owns a stake in the company, drove much of the ad’s visuals and messaging. MetLife used a familiar face to promise it would always be there. Novig uses one to dare you to bet that you’re right, today."
       ]
     }
   ],
@@ -205,7 +205,7 @@ window.CONTENT = {
       "Put the pairs side by side and a pattern appears. The ads selling fast money crowd the biggest stage right before the crash. Dot-coms flooded the 2000 game, and the NASDAQ peaked six weeks later. Ameriquest arrived in 2005, and the housing market collapsed two years after. Crypto took over in 2022, and FTX was gone by November. Each time, the next Super Bowl is quieter, and the ads selling security come back. After the 2008 housing crash, insurance companies like MetLife and Prudential bought time to talk about widows and retirement.",
       "So this isn’t a straight line from responsible to reckless. It’s a cycle. But the cycle has changed in one way that matters. In 2000, the dot-coms needed you to buy their stock. In 2005, Ameriquest needed you to take out a loan. Now, companies like FanDuel and Novig don’t need a bubble to make money from you. They just need you to keep betting.",
       "That shift was made possible by a court ruling. In 2018, the Supreme Court struck down the federal ban on sports betting, and within six years it was legal in most states. The NFL, which once sued to stop sports betting, now owns a stake in Genius Sports, a company that sells betting data. The league caps sportsbook ads at six per game and bans prediction market ads, citing a lack of safeguards, while profiting from betting itself.",
-      "The ads are also leaving the commercial break. The American Gaming Association says betting ads made up less than half a percent of TV ad volume in 2024, about half as many as in 2021. But a University of Bristol study of the 2025 NBA and NHL finals counted over 6,000 instances of gambling marketing across 13 games, mostly on jerseys, rink boards, and signage. Watch almost any game now and the betting odds are built right into the score graphics, sometimes with a sportsbook’s logo next to them. The ad is no longer something you watch during the break. It’s part of the game.",
+      "The ads are also leaving the commercial break. The American Gaming Association says betting ads made up less than half a percent of TV ad volume in 2024, and betting ads on TV were down 44% from 2021. But a University of Bristol study of the 2025 NBA and NHL finals counted over 6,000 instances of gambling marketing across 13 games, mostly on jerseys, rink boards, and signage. Watch almost any game now and the betting odds are built right into the score graphics, sometimes with a sportsbook’s logo next to them. The ad is no longer something you watch during the break. It’s part of the game.",
       "This year, the Super Bowl was quiet. Coinbase ran a karaoke sing-along with no offer, and FanDuel skipped the game itself. If the pattern holds true, that quiet means something. The question is whether it’s the quiet after a crash or the quiet before the next one. Back in the living room, the game comes back on. Everyone turns back to the field, and half of them pull out their phones to check their bets."
     ]
   },
