@@ -425,5 +425,11 @@ main:focus { outline: none; }
   .hero__inner { opacity: 1; transform: none; }
 }
 
-.site-footer .site-footer__link { margin-bottom: 20px; }
-.site-footer .btn { letter-spacing: .06em; }
+.site-footer .site-footer__link { margin-bottom: 28px; }
+.site-footer .btn {
+  min-height: 60px; padding: 0 2rem; gap: .7rem;
+  background: var(--accent); border-color: var(--accent); color: var(--accent-ink);
+  font-size: 1.05rem; letter-spacing: .04em;
+}
+.site-footer .btn:hover { background: #ffd66e; border-color: #ffd66e; }
+.site-footer .btn svg { width: 20px; height: 20px; }
