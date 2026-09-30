@@ -427,7 +427,11 @@
     const id = "works-cited";
     return el("section", { class: "chapter chapter--cited", id, "aria-labelledby": id + "-title" },
       el("div", { class: "chapter__head reveal" }, el("h2", { class: "chapter__title", id: id + "-title", html: w.heading || "" })),
-      el("div", { class: "works-cited" }, (w.entries || []).map((e) => el("p", { html: e }))));
+      el("div", { class: "works-cited" }, (w.entries || []).map((e) => {
+        const p = el("p", { html: e });
+        p.querySelectorAll("a").forEach((a) => { a.target = "_blank"; a.rel = "noopener noreferrer"; });
+        return p;
+      })));
   }
 
   /* ======================================================================
