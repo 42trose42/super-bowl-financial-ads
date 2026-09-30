@@ -181,18 +181,19 @@ window.CONTENT = {
       "[Timeline intro ¶1] Optional. Delete this line (leave the brackets: intro: []) if you want no intro."
     ],
     entries: [
-      { year: "YYYY", headline: "[Timeline headline 1]",  text: "[One sentence for entry 1.]" },
-      { year: "YYYY", headline: "[Timeline headline 2]",  text: "[One sentence for entry 2.]" },
-      { year: "YYYY", headline: "[Timeline headline 3]",  text: "[One sentence for entry 3.]" },
-      { year: "YYYY", headline: "[Timeline headline 4]",  text: "[One sentence for entry 4.]" },
-      { year: "YYYY", headline: "[Timeline headline 5]",  text: "[One sentence for entry 5.]" },
-      { year: "YYYY", headline: "[Timeline headline 6]",  text: "[One sentence for entry 6.]" },
-      { year: "YYYY", headline: "[Timeline headline 7]",  text: "[One sentence for entry 7.]" },
-      { year: "YYYY", headline: "[Timeline headline 8]",  text: "[One sentence for entry 8.]" },
-      { year: "YYYY", headline: "[Timeline headline 9]",  text: "[One sentence for entry 9.]" },
-      { year: "YYYY", headline: "[Timeline headline 10]", text: "[One sentence for entry 10.]" },
-      { year: "YYYY", headline: "[Timeline headline 11]", text: "[One sentence for entry 11.]" },
-      { year: "YYYY", headline: "[Timeline headline 12]", text: "[One sentence for entry 12.]" }
+      { year: "2000", headline: "The Dot-Com Bowl.", text: "Dot-com companies buy 17 of the game's 36 ad spots." },
+      { year: "2001", headline: "The Hangover.", text: "Only three dot-coms advertise, and E*Trade's chimp cries in a ghost town of failed websites." },
+      { year: "2005", headline: "Subprime Arrives.", text: "Ameriquest, a subprime mortgage lender, runs its first Super Bowl ads." },
+      { year: "2008", headline: "The Talking Baby.", text: "E*Trade debuts a baby trading stocks from his crib. The market crashes that fall." },
+      { year: "2009", headline: "Cash for Gold.", text: "Ed McMahon, who had defaulted on his own mortgage, sells his jewelry for cash with MC Hammer in the top-ranked ad of the year. Hyundai offers to take back your car if you lose your job." },
+      { year: "2012", headline: "Security Returns.", text: "MetLife buys its first Super Bowl ad, and in New York, Prudential airs a real widow talking about her first day of retirement." },
+      { year: "2018", headline: "The Door Opens.", text: "The Supreme Court strikes down the federal ban on sports betting, 7 to 2, in Murphy v. NCAA." },
+      { year: "2021", headline: "Betting Enters the Game.", text: "DraftKings runs its first Super Bowl ads. Robinhood tells viewers \"We are all investors,\" days after freezing GameStop purchases." },
+      { year: "2022", headline: "The Crypto Bowl.", text: "Coinbase, FTX, Crypto.com, and eToro all advertise. USA Today's ad critic compares the flood of betting ads to the dot-com bubble." },
+      { year: "2023", headline: "The Kick.", text: "FanDuel turns its ad into a live bet on a Gronkowski field goal. Only one crypto company advertises." },
+      { year: "2025", headline: "The Line.", text: "The NFL bans prediction market ads and caps sportsbook ads at six per game." },
+      { year: "2026", headline: "Quiet.", text: "Coinbase's only ad is a karaoke sing-along with no offer. FanDuel skips the game itself." }
+
     ]
   },
 
