@@ -70,9 +70,15 @@
     return (list || []).map((p) => el("p", { class: "reveal", html: p }));
   }
   function chapterHead(data, id) {
+    // With no heading, the kicker becomes the section's h2 so the page keeps its outline.
+    if (!data.heading) {
+      return data.kicker
+        ? el("div", { class: "chapter__head reveal" }, el("h2", { class: "kicker", id: id + "-title", html: data.kicker }))
+        : null;
+    }
     return el("div", { class: "chapter__head reveal" },
       kicker(data.kicker),
-      el("h2", { class: "chapter__title", id: id + "-title", html: data.heading || "" }));
+      el("h2", { class: "chapter__title", id: id + "-title", html: data.heading }));
   }
   function adLabel(ad, side, extra) {
     return el("div", { class: `adlabel adlabel--${side} ${extra || ""}` },
@@ -150,17 +156,17 @@
     const left = C.ads[pair.left];
     const right = C.ads[pair.right];
     const capId = id + "-caption";
-    const fig = el("figure", { class: "compare reveal", "aria-labelledby": capId });
+    const fig = el("figure", { class: "compare reveal", "aria-labelledby": pair.caption ? capId : null });
     if (!left || !right) {
       console.warn(`Pair "${id}": ad ID "${!left ? pair.left : pair.right}" not found in CONTENT.ads.`);
       return fig;
     }
-    const caption = el("figcaption", { class: "compare__caption", id: capId, html: pair.caption || "" });
-    const showSplit = () => fig.replaceChildren(buildSplit(left, right), caption);
+    const caption = pair.caption ? el("figcaption", { class: "compare__caption", id: capId, html: pair.caption }) : null;
+    const showSplit = () => fig.replaceChildren(...[buildSplit(left, right), caption].filter(Boolean));
 
     if (isVideoFile(left.video) && isVideoFile(right.video)) {
       fig.dataset.mode = "stacked";
-      fig.append(buildStacked(left, right, () => { fig.dataset.mode = "split"; showSplit(); }), caption);
+      fig.append(...[buildStacked(left, right, () => { fig.dataset.mode = "split"; showSplit(); }), caption].filter(Boolean));
     } else {
       fig.dataset.mode = "split";
       showSplit();
@@ -461,7 +467,13 @@
       progress,
       hero(),
       main,
-      el("footer", { class: "site-footer" }, el("p", { html: (C.footer && C.footer.text) || "" })));
+      el("footer", { class: "site-footer" },
+        C.footer && C.footer.reflectionUrl
+          ? el("p", { class: "site-footer__link" },
+              el("a", { class: "btn", href: C.footer.reflectionUrl, target: "_blank", rel: "noopener noreferrer" },
+                el("span", { html: C.footer.reflectionLabel || "" }), el("span", { class: "btn__icon" }, svg(ICON.external))))
+          : null,
+        el("p", { html: (C.footer && C.footer.text) || "" })));
 
     /* reveal-on-scroll */
     if (!reduceMotion && "IntersectionObserver" in window) {
