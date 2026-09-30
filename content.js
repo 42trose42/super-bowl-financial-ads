@@ -51,9 +51,8 @@ window.CONTENT = {
     kicker: "[Opening kicker]",
     heading: "[Opening Section Heading]",
     paragraphs: [
-      "[Opening ¶1] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "[Opening ¶2] Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "[Opening ¶3] Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris."
+      "Today is Super Bowl Sunday. My friends and coworkers are gathered in my living room half-watching the TV while reaching for the French onion dip. For about four hours, over 120 million people agree on one thing to watch. It’s the most-watched broadcast in America every year. Then the game stops, and something strange happens. Nobody gets up and the room goes quiet. Everyone turns toward the TV, because this is the one night a year Americans watch commercials on purpose.",
+      "Companies know how big the Super Bowl is. They spend months and millions for thirty seconds. What they choose to say with it tells you what they think we want, and over the last twenty-five years what they’ve been selling us about money has changed."
     ]
   },
 
@@ -62,56 +61,56 @@ window.CONTENT = {
      to ads by that ID, so you can swap which ad appears where. */
   ads: {
     pair1Left: {
-      brand: "[Brand A]",
-      title: "[Ad Title A]",
-      year: "[Year]",
-      video: "videos/pair1-left.mp4",
-      link: "#",
+      brand: "E*Trade",
+      title: "Monkey",
+      year: "2000",
+      video: "https://www.youtube.com/watch?v=qbBLDBohgrY",
+      link: "https://www.youtube.com/watch?v=qbBLDBohgrY",
       poster: "",
       alt: "[Describe what happens on screen in Ad A.]"
     },
     pair1Right: {
-      brand: "[Brand B]",
-      title: "[Ad Title B]",
-      year: "[Year]",
+      brand: "Coinbase",
+      title: "QR Code",
+      year: "2022",
       video: "videos/pair1-right.mp4",
-      link: "#",
+      link: "https://adage.com/video/coinbase-qr-wagmi",
       poster: "",
       alt: "[Describe what happens on screen in Ad B.]"
     },
     pair2Left: {
-      brand: "[Brand C]",
-      title: "[Ad Title C]",
-      year: "[Year]",
+      brand: "Ameriquest",
+      title: "Surprise Dinner",
+      year: "2005",
       video: "videos/pair2-left.mp4",
-      link: "#",
+      link: "https://adage.com/videos/ameriquest-surprise-dinner/634",
       poster: "",
       alt: "[Describe what happens on screen in Ad C.]"
     },
     pair2Right: {
-      brand: "[Brand D]",
-      title: "[Ad Title D]",
-      year: "[Year]",
+      brand: "FTX",
+      title: "Don't Miss Out",
+      year: "2022",
       video: "videos/pair2-right.mp4",
-      link: "#",
+      link: "https://adage.com/video/ftx-an-idiot-through-history-sb-60s-embargoed/",
       poster: "",
       alt: "[Describe what happens on screen in Ad D.]"
     },
     pair3Left: {
-      brand: "[Brand E]",
-      title: "[Ad Title E]",
-      year: "[Year]",
+      brand: "MetLife",
+      title: "Peanuts",
+      year: "1986",
       video: "videos/pair3-left.mp4",
-      link: "#",
+      link: "https://clickamericana.com/topics/money-work/snoopy-peanuts-met-life-ads-1987",
       poster: "",
       alt: "[Describe what happens on screen in Ad E.]"
     },
     pair3Right: {
-      brand: "[Brand F]",
-      title: "[Ad Title F]",
-      year: "[Year]",
+      brand: "Novig",
+      title: "Just Sports",
+      year: "2026",
       video: "videos/pair3-right.mp4",
-      link: "#",
+      link: "https://novig.com/justsports",
       poster: "",
       alt: "[Describe what happens on screen in Ad F.]"
     }
@@ -128,15 +127,15 @@ window.CONTENT = {
       kicker: "[Pair One kicker]",
       heading: "[Pair One Heading]",
       before: [
-        "[Pair 1, before ¶1] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
-        "[Pair 1, before ¶2] Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla."
+        "January 2000. The Rams are playing the Titans, and the stock market is bullish. A website that sells pet food has bought a Super Bowl ad, and so have sixteen other dot-com companies. E*Trade uses its airtime to put a chimp on screen, dancing in a garage while two guys clap off-beat. The ad drags out the awkwardness on purpose. The room laughs, confused, until the words appear: “Well, we just wasted two million bucks. What are you doing with your money?”",
+        "The ad is mocking itself and every other dot-com in the lineup. Everyone is supposed to laugh, but almost nobody takes the hint. Six weeks later, the NASDAQ peaks. By the next Super Bowl, seven of the seventeen tech companies that advertised that night are out of business."
       ],
       left: "pair1Left",
       right: "pair1Right",
       caption: "[Caption for comparison one]",
       after: [
-        "[Pair 1, after ¶1] Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.",
-        "[Pair 1, after ¶2] Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem."
+        "February 2022. The Rams are back in the Super Bowl, and so are the companies selling fast money, but this time it’s crypto. Coinbase, FTX, Crypto.com, and eToro have all bought time.",
+        "Mid-game, the screen goes black. A QR code drifts across it, changing colors and bouncing off the edges like the old DVD screensaver.  This goes on for a full minute. There’s no voice, no actor, and no explanation. Scan the QR code and you get $15 in free Bitcoin. The site gets twenty million hits in one minute, and it crashes. Like the E*Trade chimp, the ad never explains what the company does. It only asks that you buy in. The next day, crypto prices drop and Coinbase shares fall with them. By November, FTX has collapsed. By the next Super Bowl, only one crypto company buys an ad."
       ]
     },
     {
@@ -144,15 +143,15 @@ window.CONTENT = {
       kicker: "[Pair Two kicker]",
       heading: "[Pair Two Heading]",
       before: [
-        "[Pair 2, before ¶1] Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet.",
-        "[Pair 2, before ¶2] Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit."
+        "February 2005. The Patriots are playing the Eagles, and home prices have been climbing for years. Ameriquest, a mortgage lender, is buying Super Bowl ad space for the first time. In one, a man is cooking a surprise dinner for his wife. The cat knocks over the pot of red sauce, and when his wife walks in, he’s holding the kitchen knife in one hand and a sauce-covered cat in the other. She screams. The words appear: “Don’t judge too quickly. We won’t.”",
+        "It’s funny and both of Ameriquest’s ads that night make USA Today’s top ten. But “we won’t judge” is the business model. Ameriquest is a subprime lender, making home loans to people with weak credit who couldn’t get them elsewhere. After 2006, no subprime lender buys another Super Bowl ad. By 2007, Ameriquest stops taking new loan applications, and the housing market is collapsing."
       ],
       left: "pair2Left",
       right: "pair2Right",
       caption: "[Caption for comparison two]",
       after: [
-        "[Pair 2, after ¶1] Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi.",
-        "[Pair 2, after ¶2] Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam."
+        "February 2022. The same Crypto Bowl. FTX puts Larry David on screen, playing a skeptic through history. He waves off the wheel, the fork, and the lightbulb as bad ideas. Then someone pitches him FTX as a safe and easy way to get into crypto, and he says no to that too. The words appear: “Don’t be like Larry.”",
+        "Seventeen years apart, the message is the same: the person asking the questions is the joke. Nine months later, FTX collapses, and its founder is later convicted of fraud amongst other things. Customers who trusted the safe and easy pitch lose their money, and Larry David is named in a class-action lawsuit over the ad. He later told the AP that he asked friends whether to do the ad, and they said crypto was on the rise, “and like an idiot, I did.”"
       ]
     },
     {
@@ -160,15 +159,15 @@ window.CONTENT = {
       kicker: "[Pair Three kicker]",
       heading: "[Pair Three Heading]",
       before: [
-        "[Pair 3, before ¶1] Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor.",
-        "[Pair 3, before ¶2] Sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
+        "Not every money ad airs during the Super Bowl, so this pair looks outside it. In 1985, MetLife starts putting Snoopy and the Peanuts gang in its commercials. Insurance companies had a reputation of being cold and distant, and a cartoon beagle was meant to change that. In one 1986 spot, Snoopy promises that in over a hundred years, MetLife has never failed to meet its obligations to its customers.",
+        "That’s the whole pitch: no prize, no deadline, and no dare. The ad is selling the idea that MetLife will still be there in fifty years when you retire and need it."
       ],
       left: "pair3Left",
       right: "pair3Right",
       caption: "[Caption for comparison three]",
       after: [
-        "[Pair 3, after ¶1] Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet.",
-        "[Pair 3, after ¶2] Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim."
+        "September 2026. A prediction market called Novig launches an ad campaign starring Sydney Sweeney, wearing nothing but sports gear. It lets people bet on sports outcomes, and since the NFL bans prediction market ads, it can’t advertise during the game. So it goes to billboards in Times Square and other platforms. The tagline: “Think you know sports? Prove it.”",
+        "Female Olympians and athletes push back hard, and Novig’s CEO confirms the campaign was meant to stir controversy. Sweeney also owns a stake in the company. MetLife used a familiar face to promise it would always be there. Novig uses one to dare you to bet that you’re right, today."
       ]
     }
   ],
@@ -200,11 +199,13 @@ window.CONTENT = {
   /* ---------- Closing scene ---------- */
   closing: {
     kicker: "[Closing kicker]",
-    heading: "[Closing Section Heading]",
+    heading: "What the Ads Tell Us",
     paragraphs: [
-      "[Closing ¶1] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.",
-      "[Closing ¶2] Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.",
-      "[Closing ¶3] Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc."
+      "Put the pairs side by side and a pattern appears. The ads selling fast money crowd the biggest stage right before the crash. Dot-coms flooded the 2000 game, and the NASDAQ peaked six weeks later. Ameriquest arrived in 2005, and the housing market collapsed two years after. Crypto took over in 2022, and FTX was gone by November. Each time, the next Super Bowl is quieter, and the ads selling security come back. After the 2008 housing crash, insurance companies like MetLife and Prudential bought time to talk about widows and retirement.",
+      "So this isn’t a straight line from responsible to reckless. It’s a cycle. But the cycle has changed in one way that matters. In 2000, the dot-coms needed you to buy their stock. In 2005, Ameriquest needed you to take out a loan. Now, companies like FanDuel and Novig don’t need a bubble to make money from you. They just need you to keep betting.",
+      "That shift was made possible by a court ruling. In 2018, the Supreme Court struck down the federal ban on sports betting, and within six years it was legal in most states. The NFL, which once sued to stop sports betting, now owns a stake in Genius Sports, a company that sells betting data. The league caps sportsbook ads at six per game and bans prediction market ads, citing a lack of safeguards, while profiting from betting itself.",
+      "The ads are also leaving the commercial break. The American Gaming Association says betting ads made up less than half a percent of TV ad volume in 2024, about half as many as in 2021. But a University of Bristol study of the 2025 NBA and NHL finals counted over 6,000 instances of gambling marketing across 13 games, mostly on jerseys, rink boards, and signage. Watch almost any game now and the betting odds are built right into the score graphics, sometimes with a sportsbook’s logo next to them. The ad is no longer something you watch during the break. It’s part of the game.",
+      "This year, the Super Bowl was quiet. Coinbase ran a karaoke sing-along with no offer, and FanDuel skipped the game itself. If the pattern holds true, that quiet means something. The question is whether it’s the quiet after a crash or the quiet before the next one. Back in the living room, the game comes back on. Everyone turns back to the field, and half of them pull out their phones to check their bets."
     ]
   },
 
